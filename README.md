@@ -5,14 +5,15 @@ My site
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
     <form action="register.php" method="post">
         <input type="text" placeholder="login" name="login">
         <input type="text" placeholder="password" name="pass">
         <input type="text" placeholder="repeat password" name="repeatpass">
-        <input type="text" placeholder="mobile" name="mobile">
+        <input type="text" placeholder="email" name="email">
         <button type="submit">Зарегистрироваться</button>
     </form>
 
